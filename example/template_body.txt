@@ -1,0 +1,2 @@
+<h1>this is template content</h1>
+<div id="content">content</div>
