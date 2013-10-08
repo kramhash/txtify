@@ -1,7 +1,7 @@
 var through = require('through');
 var fs = require('fs');
 
-function txtfiy(file) {
+function txtify(file) {
   if (!(/\.(tmpl|html|txt)$/).test(file)) return through();
   var data = '', stream = through(write, end);
 
@@ -32,5 +32,5 @@ function txtfiy(file) {
   }
 }
 
-module.exports = txtfiy;
+module.exports = txtify;
 

@@ -1,5 +1,5 @@
 {
-  "name": "txtfiy",
+  "name": "txtify",
   "description": "Browserify transform to require text file.",
   "version": "0.0.1",
   "main": "index.js",
